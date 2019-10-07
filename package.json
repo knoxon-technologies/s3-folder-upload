@@ -1,25 +1,46 @@
 {
-  "name": "s3-folder-upload",
-  "version": "2.0.2",
-  "description": "Upload statics to S3 server",
-  "main": "index.js",
-  "license": "ISC",
+  "_from": "git://github.com/knoxon-technologies/s3-folder-upload.git",
+  "_id": "s3-folder-upload@2.0.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/s3-folder-upload",
+  "_phantomChildren": {
+    "@types/glob": "7.1.1",
+    "array-union": "1.0.2",
+    "fast-glob": "2.2.7",
+    "glob": "7.1.4",
+    "ignore": "4.0.6",
+    "lodash": "4.17.15",
+    "path-type": "3.0.0",
+    "slash": "2.0.0"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "s3-folder-upload@git://github.com/knoxon-technologies/s3-folder-upload.git",
+    "name": "s3-folder-upload",
+    "escapedName": "s3-folder-upload",
+    "rawSpec": "git://github.com/knoxon-technologies/s3-folder-upload.git",
+    "saveSpec": "git://github.com/knoxon-technologies/s3-folder-upload.git",
+    "fetchSpec": "git://github.com/knoxon-technologies/s3-folder-upload.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git://github.com/knoxon-technologies/s3-folder-upload.git#371877fc958acc507b1ebee2b6a18c43d9d54fe1",
+  "_spec": "s3-folder-upload@git://github.com/knoxon-technologies/s3-folder-upload.git",
+  "_where": "F:\\Projects\\clovergold-react",
+  "author": {
+    "name": "Miguel Ángel Durán",
+    "email": "miguelangel.duran@scmspain.com"
+  },
   "bin": {
     "s3-folder-upload": "./bin/s3-folder-upload.js"
   },
-  "scripts": {
-    "test": "mocha --recursive \"test/**/*Test.js\"",
-    "lint": "sui-lint js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:miduga/s3-folder-upload.git"
-  },
-  "author": "Miguel Ángel Durán <miguelangel.duran@scmspain.com>",
   "bugs": {
     "url": "https://github.com/miduga/s3-folder-upload/issues"
   },
-  "homepage": "https://github.com/miduga/s3-folder-upload/#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "async": "2.1.4",
     "aws-sdk": "2.325.0",
@@ -27,15 +48,30 @@
     "log-update": "1.0",
     "minimist": "1.2.0"
   },
-  "eslintConfig": {
-    "extends": [
-      "./node_modules/@s-ui/lint/eslintrc.js"
-    ]
-  },
+  "deprecated": false,
+  "description": "Upload statics to S3 server",
   "devDependencies": {
     "@s-ui/lint": "2",
     "chai": "4",
     "mocha": "5",
     "sinon": "4"
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
+  },
+  "homepage": "https://github.com/miduga/s3-folder-upload/#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "s3-folder-upload",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miduga/s3-folder-upload.git"
+  },
+  "scripts": {
+    "lint": "sui-lint js",
+    "test": "mocha --recursive \"test/**/*Test.js\""
+  },
+  "version": "2.0.2"
 }
